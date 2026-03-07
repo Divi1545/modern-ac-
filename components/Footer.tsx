@@ -1,15 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import {
   Phone,
   Mail,
   MapPin,
   Clock,
-  Facebook,
-  Instagram,
-  Youtube,
 } from "lucide-react";
 import { companyInfo, locations, services, navLinks } from "@/data/content";
 
@@ -20,44 +16,7 @@ export default function Footer() {
     <footer className="bg-primary text-white">
       {/* Main footer */}
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-          {/* Company Info */}
-          <div>
-            <div className="mb-6">
-              <div className="relative h-12 w-52 bg-white rounded-lg p-2">
-                <Image
-                  src="/images/logo.png"
-                  alt="Modern Air Conditioning"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-            </div>
-            <p className="text-gray-300 text-sm leading-relaxed mb-6">
-              {companyInfo.description.slice(0, 200)}...
-            </p>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
-              >
-                <Instagram size={20} />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
-              >
-                <Youtube size={20} />
-              </a>
-            </div>
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-semibold mb-6 relative">

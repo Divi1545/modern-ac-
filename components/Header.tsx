@@ -55,14 +55,14 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="relative h-14 w-56 md:h-16 md:w-64 hover:opacity-90 transition-opacity">
+            <div className="relative h-20 w-72 md:h-24 md:w-80 hover:opacity-90 transition-opacity">
               <Image
                 src="/images/logo.png"
                 alt="Modern Air Conditioning"
                 fill
                 className="object-contain object-left"
                 priority
-                sizes="256px"
+                sizes="(max-width: 768px) 288px, 320px"
               />
             </div>
           </Link>

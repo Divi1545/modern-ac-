@@ -142,12 +142,33 @@ export const partnerBrands = [
   { name: "TCL", logo: "/images/brands/tcl.jpeg" },
 ];
 
+const PARTS_IMAGE = "/images/workshop/parts.jpg";
+
 export const productCategories = [
-  "Compressor", "Condensor", "Evaporator", "Bearing", "Block Valve",
-  "Blower Fan Set", "Blower Motor", "Clutch Coil", "Clutch Plate",
-  "Connector", "Expansion Valve", "Filter", "Hose", "O-Ring",
-  "Pressure Switch", "Pulley", "Radiator", "Radiator Fan", "Relay",
-  "Resistance", "Sensor", "Shaft Seal", "Solenoid", "Switch",
+  { name: "Compressor", image: PARTS_IMAGE },
+  { name: "Condensor", image: PARTS_IMAGE },
+  { name: "Evaporator", image: PARTS_IMAGE },
+  { name: "Bearing", image: PARTS_IMAGE },
+  { name: "Block Valve", image: PARTS_IMAGE },
+  { name: "Blower Fan Set", image: PARTS_IMAGE },
+  { name: "Blower Motor", image: PARTS_IMAGE },
+  { name: "Clutch Coil", image: PARTS_IMAGE },
+  { name: "Clutch Plate", image: PARTS_IMAGE },
+  { name: "Connector", image: PARTS_IMAGE },
+  { name: "Expansion Valve", image: PARTS_IMAGE },
+  { name: "Filter", image: PARTS_IMAGE },
+  { name: "Hose", image: PARTS_IMAGE },
+  { name: "O-Ring", image: PARTS_IMAGE },
+  { name: "Pressure Switch", image: PARTS_IMAGE },
+  { name: "Pulley", image: PARTS_IMAGE },
+  { name: "Radiator", image: PARTS_IMAGE },
+  { name: "Radiator Fan", image: PARTS_IMAGE },
+  { name: "Relay", image: PARTS_IMAGE },
+  { name: "Resistance", image: PARTS_IMAGE },
+  { name: "Sensor", image: PARTS_IMAGE },
+  { name: "Shaft Seal", image: PARTS_IMAGE },
+  { name: "Solenoid", image: PARTS_IMAGE },
+  { name: "Switch", image: PARTS_IMAGE },
 ];
 
 export const refrigerantGases = [

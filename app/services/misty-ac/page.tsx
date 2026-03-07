@@ -231,43 +231,6 @@ export default function MistyACPage() {
         </div>
       </section>
 
-      {/* Services */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-              Our Commitment
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-2 mb-4">
-              Complete Service Support
-            </h2>
-            <p className="text-gray-600">
-              We are committed to serve you with inspection, installation, repair,
-              and greater after-service care.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-4 gap-6">
-            {["Inspection", "Installation", "Repair", "Maintenance"].map(
-              (item, idx) => (
-                <motion.div
-                  key={idx}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: idx * 0.1 }}
-                  viewport={{ once: true }}
-                  className="bg-white rounded-2xl p-8 text-center shadow-md hover:shadow-lg transition-shadow"
-                >
-                  <div className="text-4xl font-bold text-accent mb-2">
-                    {String(idx + 1).padStart(2, "0")}
-                  </div>
-                  <h3 className="font-bold text-primary">{item}</h3>
-                </motion.div>
-              )
-            )}
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-20 bg-primary">

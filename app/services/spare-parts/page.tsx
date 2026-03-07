@@ -99,7 +99,7 @@ export default function SparePartsPage() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-2 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
               Product Categories
             </h2>
             <p className="text-gray-600">
@@ -111,7 +111,7 @@ export default function SparePartsPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {productCategories.map((category, idx) => (
               <motion.div
-                key={category}
+                key={category.name}
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, delay: idx * 0.05 }}
@@ -120,14 +120,15 @@ export default function SparePartsPage() {
               >
                 <div className="relative h-28 bg-gray-100">
                   <Image
-                    src={`/images/products/categories/${category.toLowerCase().replace(/\s+/g, "-")}.jpg`}
-                    alt={category}
+                    src={category.image}
+                    alt={category.name}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 16vw"
                   />
                 </div>
                 <div className="p-3 text-center group-hover:bg-primary group-hover:text-white transition-colors">
-                  <span className="font-medium text-sm">{category}</span>
+                  <span className="font-medium text-sm">{category.name}</span>
                 </div>
               </motion.div>
             ))}
@@ -138,68 +139,6 @@ export default function SparePartsPage() {
       {/* Partner Brands */}
       <BrandsCarousel />
 
-      {/* Features */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-            >
-              <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-                Why Choose Our Parts
-              </span>
-              <h2 className="text-3xl md:text-4xl font-bold text-primary mt-2 mb-6">
-                Quality You Can Trust
-              </h2>
-              <p className="text-gray-600 leading-relaxed mb-8">
-                Our reputation is built on reliability, authenticity, and long-term
-                customer satisfaction, earned through consistent excellence and
-                industry expertise.
-              </p>
-
-              <div className="space-y-4">
-                {service.features.map((feature, idx) => (
-                  <div
-                    key={idx}
-                    className="flex items-start gap-3 p-4 bg-gray-50 rounded-xl"
-                  >
-                    <CheckCircle className="text-accent shrink-0 mt-0.5" size={20} />
-                    <span className="text-gray-700">{feature}</span>
-                  </div>
-                ))}
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="grid grid-cols-2 gap-4"
-            >
-              {[
-                { src: "/images/drive/007.jpg", alt: "Auto AC Parts" },
-                { src: "/images/drive/008.jpg", alt: "Auto AC Parts" },
-              ].map((img, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white rounded-2xl overflow-hidden shadow-lg h-48 relative col-span-1"
-                >
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              ))}
-            </motion.div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-20 bg-primary">
