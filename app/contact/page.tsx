@@ -50,7 +50,7 @@ export default function ContactPage() {
       <section className="relative py-32 bg-primary overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/images/hero/workshop-bg.png"
+            src="/images/hero/workshop-bg.jpg"
             alt=""
             fill
             className="object-cover"

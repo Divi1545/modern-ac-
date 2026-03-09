@@ -56,7 +56,7 @@ export default function Home() {
         {/* Background */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero/workshop-bg.png"
+            src="/images/hero/workshop-bg.jpg"
             alt="Modern AC Workshop"
             fill
             className="object-cover"
@@ -281,7 +281,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/drive/000.png"
+                  src="/images/drive/000.jpg"
                   alt="Modern AC Kelaniya Office"
                   fill
                   className="object-cover object-center"
@@ -367,7 +367,7 @@ export default function Home() {
       <section className="py-20 bg-primary relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <Image
-            src="/images/hero/workshop-bg.png"
+            src="/images/hero/workshop-bg.jpg"
             alt=""
             fill
             className="object-cover"
