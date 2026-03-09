@@ -70,7 +70,7 @@ export default function AutoACRepairPage() {
       <section className="relative py-32 bg-primary overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/images/workshop/mercedes-repair.jpg"
+            src="/images/workshop/003.png"
             alt=""
             fill
             className="object-cover"

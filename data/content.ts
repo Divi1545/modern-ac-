@@ -60,7 +60,7 @@ export const services = [
       "Brand-new installation of Refrigeration Freezer trucks",
     ],
     icon: "Wrench",
-    image: "/images/workshop/mercedes-repair.jpg",
+    image: "/images/workshop/003.png",
   },
   {
     id: "spare-parts",
