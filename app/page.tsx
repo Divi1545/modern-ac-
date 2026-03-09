@@ -281,7 +281,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/office/building.jpg"
+                  src="/images/office/kelaniya-office.jpg"
                   alt="Modern AC Kelaniya Office"
                   fill
                   className="object-cover object-center"
