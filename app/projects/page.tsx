@@ -63,7 +63,7 @@ export default function ProjectsPage() {
     },
     {
       name: "Asian Hardware Colombo",
-      image: "/images/about/0017.jpg",
+      image: "/images/about/asian-hardware.png",
       description:
         "Commercial air conditioning installation for Asian Hardware.",
     },
