@@ -196,7 +196,7 @@ export default function AboutPage() {
             >
               <div className="relative h-64">
                 <Image
-                  src="/images/drive/000.jpg"
+                  src="/images/about/2nd.png"
                   alt="Head Office - Kelaniya with Modern AC building"
                   fill
                   className="object-cover"
