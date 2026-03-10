@@ -248,7 +248,7 @@ export default function AboutPage() {
             >
               <div className="relative h-64">
                 <Image
-                  src="/images/drive/0019.jpg"
+                  src="/images/about/0019.png"
                   alt="Colombo Office"
                   fill
                   className="object-cover"
