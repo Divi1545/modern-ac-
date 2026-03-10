@@ -21,13 +21,13 @@ export default function ProjectsPage() {
   const featuredProjects = [
     {
       name: "Duty Free - Katunayake",
-      image: "/images/drive/0010.jpg",
+      image: "/images/about/0010.jfif",
       description:
         "Complete air conditioning solution for the Katunayake Duty Free complex.",
     },
     {
       name: "SL Navy Maritime - Trinco",
-      image: "/images/drive/0011.jpg",
+      image: "/images/about/0011.jpg",
       description:
         "Marine air conditioning systems for Sri Lanka Navy vessels.",
     },
