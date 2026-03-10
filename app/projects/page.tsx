@@ -39,7 +39,7 @@ export default function ProjectsPage() {
     },
     {
       name: "Base Hospital - Nintavur",
-      image: "/images/about/0012.JPG",
+      image: "/images/about/0013.jfif",
       description:
         "Healthcare HVAC solutions ensuring optimal patient comfort.",
     },
