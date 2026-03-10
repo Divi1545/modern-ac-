@@ -221,7 +221,7 @@ export default function MistyACPage() {
               className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="/images/misty/commercial.jpg"
+                src="/images/about/009.jpg"
                 alt="Commercial AC Solutions"
                 fill
                 className="object-cover"
