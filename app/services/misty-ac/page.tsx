@@ -32,13 +32,13 @@ export default function MistyACPage() {
       name: "Inverter Split AC - 12,000 BTU",
       description: "Perfect for bedrooms and small living spaces",
       features: ["Inverter Technology", "Energy Efficient", "Quiet Operation"],
-      image: "/images/misty/12000-btu.png",
+      image: "/images/misty/007_008.jpg",
     },
     {
       name: "Inverter Split AC - 24,000 BTU",
       description: "Ideal for large rooms and open-plan spaces",
       features: ["High Capacity", "Fast Cooling", "Smart Controls"],
-      image: "/images/misty/24000-btu.png",
+      image: "/images/misty/007_008.jpg",
     },
   ];
 
