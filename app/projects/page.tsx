@@ -45,7 +45,7 @@ export default function ProjectsPage() {
     },
     {
       name: "Sayura Ship - SL Navy",
-      image: "/images/drive/0014.jpg",
+      image: "/images/about/0014.jfif",
       description:
         "Marine air conditioning systems for the SL Navy Sayura Ship.",
     },
