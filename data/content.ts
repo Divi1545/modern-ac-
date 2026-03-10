@@ -163,12 +163,12 @@ export const productCategories = [
   { name: "Pulley", image: "/images/parts/pulley.jpg" },
   { name: "Radiator", image: "/images/parts/radiator.jpg" },
   { name: "Radiator Fan", image: "/images/parts/radiator-fan.avif" },
-  { name: "Relay", image: PARTS_FALLBACK },
-  { name: "Resistance", image: PARTS_FALLBACK },
-  { name: "Sensor", image: PARTS_FALLBACK },
-  { name: "Shaft Seal", image: PARTS_FALLBACK },
-  { name: "Solenoid", image: PARTS_FALLBACK },
-  { name: "Switch", image: PARTS_FALLBACK },
+  { name: "Relay", image: "/images/parts/relay.jpg" },
+  { name: "Resistance", image: "/images/parts/resistance.webp" },
+  { name: "Sensor", image: "/images/parts/sensor.jpg" },
+  { name: "Shaft Seal", image: "/images/parts/shaft-seal.jpg" },
+  { name: "Solenoid", image: "/images/parts/solenoid.webp" },
+  { name: "Switch", image: "/images/parts/switch.png" },
 ];
 
 export const refrigerantGases = [
