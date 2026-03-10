@@ -33,7 +33,7 @@ export default function ProjectsPage() {
     },
     {
       name: "Cool Room Project - Anuradhapura",
-      image: "/images/drive/0012.jpg",
+      image: "/images/about/0012.JPG",
       description:
         "Industrial refrigeration for the Ministry of Small Enterprise & Development.",
     },
