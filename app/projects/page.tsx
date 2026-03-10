@@ -69,7 +69,7 @@ export default function ProjectsPage() {
     },
     {
       name: "John Ward - Katunayake",
-      image: "/images/drive/0018.jpg",
+      image: "/images/about/0018.jpg",
       description:
         "Complete AC solution for John Ward in Katunayake.",
     },
