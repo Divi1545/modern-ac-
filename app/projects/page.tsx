@@ -21,7 +21,7 @@ export default function ProjectsPage() {
   const featuredProjects = [
     {
       name: "Duty Free - Katunayake",
-      image: "/images/about/0010.jfif",
+      image: "/images/about/0010.jpg",
       description:
         "Complete air conditioning solution for the Katunayake Duty Free complex.",
     },
@@ -39,13 +39,13 @@ export default function ProjectsPage() {
     },
     {
       name: "Base Hospital - Nintavur",
-      image: "/images/about/0013.jfif",
+      image: "/images/about/0013.jpg",
       description:
         "Healthcare HVAC solutions ensuring optimal patient comfort.",
     },
     {
       name: "Sayura Ship - SL Navy",
-      image: "/images/about/0014.jfif",
+      image: "/images/about/0014.jpg",
       description:
         "Marine air conditioning systems for the SL Navy Sayura Ship.",
     },
