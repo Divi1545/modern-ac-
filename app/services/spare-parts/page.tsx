@@ -39,7 +39,7 @@ export default function SparePartsPage() {
       <section className="relative py-32 bg-primary overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/images/workshop/parts.jpg"
+            src="/images/about/002.jpg"
             alt=""
             fill
             className="object-cover"
