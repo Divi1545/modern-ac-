@@ -177,9 +177,9 @@ export default function AutoACRepairPage() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { src: "/images/drive/004.jpg", alt: "Modern AC Workshop" },
-              { src: "/images/drive/005.jpg", alt: "Modern AC Service Center" },
-              { src: "/images/drive/006.jpg", alt: "Modern AC Facility" },
+              { src: "/images/about/004.jpg", alt: "Modern AC Workshop" },
+              { src: "/images/about/005.png", alt: "Modern AC Service Center" },
+              { src: "/images/about/006.png", alt: "Modern AC Facility" },
             ].map((item, idx) => (
               <motion.div
                 key={idx}
