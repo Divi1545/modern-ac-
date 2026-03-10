@@ -205,9 +205,6 @@ export default function ProjectsPage() {
               "/images/projects/gallery-1.jpg",
               "/images/projects/gallery-2.jpg",
               "/images/projects/gallery-3.jpg",
-              "/images/projects/gallery-4.jpg",
-              "/images/projects/gallery-5.jpg",
-              "/images/projects/gallery-6.jpg",
             ].map((img, idx) => (
               <motion.div
                 key={idx}
