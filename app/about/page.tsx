@@ -103,7 +103,7 @@ export default function AboutPage() {
             >
               <div className="relative h-[600px] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/drive/001.jpg"
+                  src="/images/about/003.png"
                   alt="Modern AC Workshop"
                   fill
                   className="object-cover"

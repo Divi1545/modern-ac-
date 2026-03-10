@@ -77,7 +77,7 @@ export const services = [
       "Island-wide dealer network",
     ],
     icon: "Package",
-    image: "/images/workshop/parts.jpg",
+    image: "/images/about/002.jpg",
   },
   {
     id: "misty-ac",
