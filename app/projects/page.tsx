@@ -51,19 +51,19 @@ export default function ProjectsPage() {
     },
     {
       name: "Airport And Aviation Services Limited",
-      image: "/images/drive/0015.jpg",
+      image: "/images/about/0016.jpg",
       description:
         "Air conditioning solutions for Airport and Aviation Services.",
     },
     {
       name: "Ceylon Petroleum Corporation",
-      image: "/images/drive/0016.jpg",
+      image: "/images/about/0015.jpg",
       description:
         "HVAC solutions for Ceylon Petroleum Corporation facilities.",
     },
     {
       name: "Asian Hardware Colombo",
-      image: "/images/drive/0017.jpg",
+      image: "/images/about/0017.jpg",
       description:
         "Commercial air conditioning installation for Asian Hardware.",
     },
