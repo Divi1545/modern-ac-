@@ -57,7 +57,7 @@ export default function ProjectsPage() {
     },
     {
       name: "Ceylon Petroleum Corporation",
-      image: "/images/about/0015.jpg",
+      image: "/images/about/petrolll.png",
       description:
         "HVAC solutions for Ceylon Petroleum Corporation facilities.",
     },
