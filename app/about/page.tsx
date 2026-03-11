@@ -131,8 +131,8 @@ export default function AboutPage() {
             >
               <div className="bg-white rounded-3xl p-8 shadow-xl">
                 <Image
-                  src="/images/drive/002.jpg"
-                  alt="Modern AC Certification"
+                  src="/images/about/denso-award.png"
+                  alt="Denso Japan Authorized Service Dealer Certificate"
                   width={600}
                   height={400}
                   className="rounded-xl w-full"
