@@ -55,19 +55,19 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-white via-gray-50 to-blue-50"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-blue-50 to-white"></div>
         </div>
 
         {/* Subtle wave shapes */}
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-bl from-accent/8 to-transparent rounded-full -translate-y-1/4 translate-x-1/4"></div>
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-primary/5 to-transparent rounded-full translate-y-1/4 -translate-x-1/4"></div>
-        <div className="absolute top-1/2 right-1/3 w-[300px] h-[300px] bg-accent/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-bl from-accent/15 to-transparent rounded-full -translate-y-1/4 translate-x-1/4"></div>
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-primary/15 to-transparent rounded-full translate-y-1/4 -translate-x-1/4"></div>
+        <div className="absolute top-1/2 right-1/3 w-[300px] h-[300px] bg-accent/10 rounded-full blur-3xl"></div>
 
         {/* Wave SVG at bottom */}
         <div className="absolute bottom-0 left-0 right-0 z-[1]">
           <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-            <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,70 L1440,120 L0,120 Z" fill="white" fillOpacity="0.6"/>
-            <path d="M0,80 C360,40 720,100 1080,60 C1260,40 1380,50 1440,45 L1440,120 L0,120 Z" fill="white" fillOpacity="0.4"/>
+            <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,70 L1440,120 L0,120 Z" fill="#4fc3f7" fillOpacity="0.08"/>
+            <path d="M0,80 C360,40 720,100 1080,60 C1260,40 1380,50 1440,45 L1440,120 L0,120 Z" fill="#1e3a5f" fillOpacity="0.05"/>
           </svg>
         </div>
 
