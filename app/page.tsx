@@ -55,16 +55,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/hero/workshop-bg.jpg"
-            alt="Modern AC Workshop"
-            fill
-            className="object-cover"
-            priority
-            quality={90}
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/85 via-primary/60 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary-light"></div>
         </div>
 
         {/* Floating shapes */}
