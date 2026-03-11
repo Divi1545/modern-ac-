@@ -55,12 +55,21 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary-light"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-white via-gray-50 to-blue-50"></div>
         </div>
 
-        {/* Floating shapes */}
-        <div className="absolute top-20 right-20 w-72 h-72 bg-accent/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 left-20 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
+        {/* Subtle wave shapes */}
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-bl from-accent/8 to-transparent rounded-full -translate-y-1/4 translate-x-1/4"></div>
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-primary/5 to-transparent rounded-full translate-y-1/4 -translate-x-1/4"></div>
+        <div className="absolute top-1/2 right-1/3 w-[300px] h-[300px] bg-accent/5 rounded-full blur-3xl"></div>
+
+        {/* Wave SVG at bottom */}
+        <div className="absolute bottom-0 left-0 right-0 z-[1]">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
+            <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,70 L1440,120 L0,120 Z" fill="white" fillOpacity="0.6"/>
+            <path d="M0,80 C360,40 720,100 1080,60 C1260,40 1380,50 1440,45 L1440,120 L0,120 Z" fill="white" fillOpacity="0.4"/>
+          </svg>
+        </div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -71,7 +80,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <span className="inline-block px-4 py-2 bg-accent/20 text-accent rounded-full text-sm font-medium mb-6">
+                <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
                   Denso Japan Authorized Service Dealer
                 </span>
               </motion.div>
@@ -80,17 +89,17 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
+                className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 leading-tight"
               >
                 Sri Lanka&apos;s Premier{" "}
-                <span className="text-accent">Auto AC</span> Specialists
+                <span className="text-accent-dark">Auto AC</span> Specialists
               </motion.h1>
 
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-lg text-gray-200 mb-8 max-w-xl"
+                className="text-lg text-gray-600 mb-8 max-w-xl"
               >
                 With over 44 years of excellence, Modern Air Conditioning
                 delivers top-quality automotive AC repair, genuine spare parts,
@@ -105,14 +114,14 @@ export default function Home() {
               >
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-full font-semibold transition-all hover:shadow-xl hover:shadow-accent/30"
+                  className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-full font-semibold transition-all hover:shadow-xl hover:shadow-primary/30"
                 >
                   Get Free Quote
                   <ArrowRight size={20} />
                 </Link>
                 <Link
                   href="/services"
-                  className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-full font-semibold transition-all backdrop-blur-sm border border-white/20"
+                  className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-primary px-8 py-4 rounded-full font-semibold transition-all shadow-md border border-gray-200"
                 >
                   Our Services
                 </Link>
@@ -129,9 +138,9 @@ export default function Home() {
                   (badge) => (
                     <span
                       key={badge}
-                      className="flex items-center gap-2 text-white/80 text-sm"
+                      className="flex items-center gap-2 text-gray-500 text-sm"
                     >
-                      <CheckCircle size={16} className="text-accent" />
+                      <CheckCircle size={16} className="text-accent-dark" />
                       {badge}
                     </span>
                   )
@@ -181,7 +190,7 @@ export default function Home() {
                 </div>
 
                 {/* Floating badge */}
-                <div className="absolute -top-4 -right-4 bg-accent text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
+                <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
                   44+ Years
                 </div>
               </div>
@@ -190,9 +199,9 @@ export default function Home() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center pt-2">
-            <div className="w-1.5 h-3 bg-white/50 rounded-full animate-pulse"></div>
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-10">
+          <div className="w-6 h-10 border-2 border-primary/30 rounded-full flex justify-center pt-2">
+            <div className="w-1.5 h-3 bg-primary/30 rounded-full animate-pulse"></div>
           </div>
         </div>
       </section>
